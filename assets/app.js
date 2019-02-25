@@ -155,7 +155,6 @@ $(document).ready(function() {
 
     preface.append($('<p>').addClass('text').text(training.introOne));
     preface.append($('<p>').addClass('text').text(training.introTwo));
-    preface.append($('<p>').addClass('text').text(training.teaser));
 
     preface.append($('<h2>').addClass('title').text('End to End Accessibility Workshop'));
 
