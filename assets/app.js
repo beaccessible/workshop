@@ -150,17 +150,20 @@ $(document).ready(function() {
 
     console.log(training.title);
 
-    let preface = $('#preface')
+    let preface = $('#preface');
+    let hero = $('<div>').addClass('hero');
     
-    preface.append($('<h1>').addClass('king').text((training.title)))
-    preface.append($('<h2>').addClass('queen').text(training.heading))
-    preface.append($('<p>').addClass('text').text(training.introOne))
-    preface.append($('<p>').addClass('text').text(training.introTwo))
-    preface.append($('<p>').addClass('text').text(training.teaser))
-    preface.append($('<p>').addClass('text').text(training.descriptionOne))
-    preface.append($('<p>').addClass('text').text(training.descriptionTwo))
-    preface.append($('<p>').addClass('text').text(training.descriptionThree))
-    preface.append($('<p>').addClass('text').text(training.descriptionFour))
+    hero.append($('<h1>').addClass('king').text((training.title)));
+    hero.append($('<h2>').addClass('queen').text(training.heading));
+    preface.append(hero);
+
+    preface.append($('<p>').addClass('text').text(training.introOne));
+    preface.append($('<p>').addClass('text').text(training.introTwo));
+    preface.append($('<p>').addClass('text').text(training.teaser));
+    preface.append($('<p>').addClass('text').text(training.descriptionOne));
+    preface.append($('<p>').addClass('text').text(training.descriptionTwo));
+    preface.append($('<p>').addClass('text').text(training.descriptionThree));
+    preface.append($('<p>').addClass('text').text(training.descriptionFour));
 
     let epilogue = $('#epilogue')
 

@@ -78,6 +78,7 @@ and (max-width: 900px) {
 .time {
     color: black;
     text-align: left;
+    line-height: 1.2rem;
     font-size: 1.1rem;
 }
 
@@ -117,6 +118,9 @@ and (max-width: 900px) {
 
 .text {
     padding: 5px;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1.2rem;
 }
 
 .king {
@@ -132,6 +136,11 @@ and (max-width: 900px) {
 }
 
 #main {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+.hero {
+    background-color: linear-gradient(#dfdfdf, #efefef);
+    min-height: 5rem;
 }
