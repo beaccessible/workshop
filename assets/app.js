@@ -1,9 +1,10 @@
 let training = {
-title: "Web Accessibility Workshop",
-heading: "We run workshops, teaching developers how to build applications that support the broadest circle of people - before a court makes them.",
+title: "Be Accessible",
+heading: "We run workshops, teaching developers how to build applications that support the broadest circle of people",
+headingEm: " - before a court makes them.",
 introOne: "Accessibility laws are changing. Similar to how some store locations must have a ramp or a certain door width, your website, or online store, must follow particular design steps to support assistive technlogy. Courts are regularly determining that anti-discrimination laws apply to online settings and there may not be undue barriers to using a website or app. ",
 introTwo: "Most of these online barriers are via flaws in frontend code – flaws that could have been prevented by developers understanding the core principles of accessibility and having the tools to evaluate and iterate on their own development.",
-teaser: "We're excited to introduce the workshop helping developers and designers reach beyond compliance to deliver a joyful online experience. ",
+teaser: "We're excited to introduce this workshop helping developers and designers reach beyond compliance to deliver a joyful online experience. ",
 descriptionOne: "This developer-centric crash course starts at a high level, covering the regulatory landscape and key conclusions from the explosion of web accessibility lawsuits. Participants will learn how to sustainably integrate accessibility in their development workflows and more broadly within their organization. Then most of the day is spent on the nuts and bolts - the code.",
 descriptionTwo: "It is not a lecture. Technology people learn by doing. It's a day full of specially built activities designed to inform, challenge, and entertain - that is important. The participants test out screen readers and learn how assistive technology works. We quickly go from building basic forms to implementing complex, dynamic UI features. There's a deep dive on single page applications like React or Angular. ",
 descriptionThree: "Each person builds fundamental skills in accessibility that any tech professional delivering web applications should know. The objective is that participants leave, knowing how to consider accessibility in their development and with confidence that they're building inclusive applications. ",
@@ -151,15 +152,13 @@ $(document).ready(function() {
     console.log(training.title);
 
     let preface = $('#preface');
-    let hero = $('<div>').addClass('hero');
-    
-    hero.append($('<h1>').addClass('king').text((training.title)));
-    hero.append($('<h2>').addClass('queen').text(training.heading));
-    preface.append(hero);
 
     preface.append($('<p>').addClass('text').text(training.introOne));
     preface.append($('<p>').addClass('text').text(training.introTwo));
     preface.append($('<p>').addClass('text').text(training.teaser));
+
+    preface.append($('<h2>').addClass('title').text('End to End Accessibility Workshop'));
+
     preface.append($('<p>').addClass('text').text(training.descriptionOne));
     preface.append($('<p>').addClass('text').text(training.descriptionTwo));
     preface.append($('<p>').addClass('text').text(training.descriptionThree));
