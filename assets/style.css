@@ -173,6 +173,11 @@ and (max-width: 900px) {
     font-weight: 400;
 }
 
+a:focus {
+    outline: 2px solid white;
+    outline-offset: -2px;
+}
+
 .queen {
     font-size: 1.6rem;
     font-weight: 500;
