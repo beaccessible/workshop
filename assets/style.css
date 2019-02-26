@@ -290,7 +290,7 @@ main {
 
     a:hover > #home-icon {
     animation-name: spin;
-    animation-duration: 2000ms;
+    animation-duration: 1200ms;
     animation-timing-function: linear;
   }
 
