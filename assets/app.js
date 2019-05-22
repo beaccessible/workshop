@@ -112,7 +112,7 @@ booking: "Participants learn how to make common UI features more inclusive and g
 bookingTwo: "The audience may sometimes be developers or designers or a more non-technical audience - it varies. We tailor the training to the crowd, which is ideally between 10 - 25 individuals. This number ensures everyone gets significant one-on-one time and that we have enough volunteers to keep the class at a high energy. Plus, I'm a fan of the Socratic method.",
 bookingThree: "Some of the activities are stretch goals and may not be fully completed at the end of the day. It can be arranged to move the self-critique portion to a second day so that participants can receive more one-on-one time. Regardless, attendees (and their organizations) will receive all of the code, slides, and content from the day, which serves a starter for future frontend work. The training may be recorded.",
 bookingFour: "We're based in Los Angeles, but have computer and will travel. The price ranges depening on the sort or organization. We give significant discounts for non-profits and any organization that has a good cause.",
-bookingFive: "For questions about pricing, feel free to email aaron@beaccessible.com or start a conversation with me on Twitter."
+bookingFive: "For questions about pricing, feel free to email sales@beaccessible.com or start a conversation with me on Twitter."
 }
 
 $(document).ready(function() {
